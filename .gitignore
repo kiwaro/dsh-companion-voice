@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+qa/
+dist/
+node_modules/
+.cosyvenv/
+runtime/
+models/
+voices/
+.env
+.env.*
+*.log

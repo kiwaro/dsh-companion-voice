@@ -1,0 +1,39 @@
+{
+  "name": "dsh-companion-voice",
+  "version": "0.1.0",
+  "description": "桌宠后台语音：DSH 官方本地识别、唤醒和 CosyVoice 本地播报",
+  "type": "module",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "native",
+    "cordis.patch.yml",
+    "README.md",
+    "docs"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:native": "node scripts/test-native.mjs"
+  },
+  "engines": {
+    "node": ">=24.9.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "compatibility": {
+      "dsh": ">=0.2.2-0 <0.3.0-0"
+    }
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

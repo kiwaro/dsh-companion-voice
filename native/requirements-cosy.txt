@@ -1,0 +1,27 @@
+# Windows inference dependencies, isolated from the microphone worker.
+# CUDA PyTorch is installed separately by setup-cosy.ps1.
+conformer==0.3.2
+diffusers==0.29.0
+gdown==5.1.0
+wget==3.2
+HyperPyYAML==1.2.3
+inflect==7.3.1
+librosa==0.10.2
+lightning==2.2.4
+modelscope==1.20.0
+numpy==1.26.4
+pyarrow==18.1.0
+pyworld==0.3.4
+Cython==3.0.12
+omegaconf==2.3.0
+onnxruntime==1.18.0
+soundfile==0.12.1
+transformers==4.51.3
+huggingface-hub==0.30.2
+x-transformers==2.11.24
+hydra-core==1.3.2
+rich==13.7.1
+matplotlib==3.7.5
+setuptools==75.8.0
+wheel==0.45.1
+openai-whisper==20231117
